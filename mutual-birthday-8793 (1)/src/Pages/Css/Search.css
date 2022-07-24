@@ -1,0 +1,19 @@
+.bg_image {
+  position: absolute !important;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.uk-overlay-primary {
+  color: rgba(255, 255, 255, 0.7);
+}
+.uk-position-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
