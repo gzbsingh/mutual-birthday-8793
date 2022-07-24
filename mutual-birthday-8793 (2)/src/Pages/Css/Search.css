@@ -1,0 +1,53 @@
+.bg_image {
+  position: absolute !important;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 50%;
+}
+.uk-overlay-primary {
+  color: rgba(255, 255, 255, 0.7);
+  /* background: rgba(34, 34, 34, 0.6); */
+}
+.uk-position-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.uk-cover-container {
+  height: calc(50vh - 100px);
+  background: black;
+  overflow: hidden;
+  position: relative;
+}
+.uk-cover-container Img {
+  /* width: 100%; */
+  height: auto;
+  max-width: 100%;
+}
+.middle {
+  position: absolute !important;
+  top: 30%;
+  right: 100px;
+}
+.cal-1 {
+  height: 30px;
+  text-align: center;
+  /* width: 100px; */
+}
+.Menu_CL {
+  position: absolute;
+  bottom: 50%;
+  border: solid;
+}
+.button_S {
+  background-color: #1e87f0;
+  color: white;
+  height: 34px;
+  border: none;
+}
