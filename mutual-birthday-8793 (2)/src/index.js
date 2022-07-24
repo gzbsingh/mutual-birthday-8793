@@ -11,9 +11,9 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <BrowserRouter>
-      <Provider store={store}>
+     
         <App />
-      </Provider>
+      
     </BrowserRouter>
   </StrictMode>
 );
